@@ -1,3 +1,7 @@
+@font-face {
+    font-family: norse-bold;
+    src: url("../assets/Norse-Bold.otf");
+}
 body {
     margin: 0;
     padding: 0;
@@ -7,12 +11,11 @@ body {
     flex-direction: row;
 }
 #title-section {
+    display: flex;
+    justify-content: center;
     height: 100vh;
     width: 30vw;
     background-image: url("../images/mainImg.avif");
-}
-#title-section {
-
 }
 .main-img-container img {
     width: 100%;
@@ -25,9 +28,59 @@ body {
 .main-img-container {
     position: fixed;
 }
-.odin-container {
+.odin-container-background {
+    background: rgba(0, 0, 0, 0.5);
     position: fixed;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+.odin-container {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    height: 150px;
+}
+.odin-img {
+    width: 100px;
+    height: auto;
+    opacity: 1;
+}
+.odin-text {
+    color: white;
+    font-family: norse-bold;
+    font-weight: 800;
+    font-size: 5rem;
 }
 .title-credits {
     position: fixed;
+    bottom: 0px;
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+}
+.title-credits span {
+    text-decoration: underline;
+}
+.content-up {
+    background-color: #F9FAFB;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: calc(20vh + 150px);
+}
+.form-down {
+    bottom: 0px;
+    background-color: #F9FAFB;
+    position: fixed;
+    width: 100%;
+    height: calc(20vh + 150px);
+}
+.submit-button {
+    background-color: #596D48;
+    color: white;
 }
