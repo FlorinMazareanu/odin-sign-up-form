@@ -72,13 +72,52 @@ body {
     position: fixed;
     width: 100%;
     height: calc(20vh + 150px);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.content-up p {
+    width: 50%;
+    padding-left: 50px;
+}
+.form-up {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    padding-left: 50px;
+    padding-top: 3rem;
+}
+.content-form {
+    margin-top:calc(20vh + 150px);
+}
+.form-left-right {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+.form-item {
+    display: flex;
+    flex-direction: column;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+}
+.form-item label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+.form-item input {
+    height: 1.4rem;
+    width: 15vw;
 }
 .form-down {
     bottom: 0px;
     background-color: #F9FAFB;
     position: fixed;
     width: 100%;
-    height: calc(20vh + 150px);
+    height: calc(20vh + 100px);
 }
 .submit-button {
     background-color: #596D48;
