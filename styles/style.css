@@ -78,6 +78,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    box-shadow: 0px -1px #888, 0px -3px 5px #888;
 }
 .content-up p {
     width: 50%;
@@ -119,14 +120,50 @@ body {
     border-radius: 0.25rem;
     box-shadow: 5px 10px 18px #E5E7EB;
 }
+.form-item input:invalid {
+    outline: 1px solid red !important;
+    border-radius: 0.25rem;
+    box-shadow: 5px 10px 18px #E5E7EB;
+}
 .form-down {
     bottom: 0px;
     background-color: #F9FAFB;
     position: fixed;
     width: 100%;
     height: calc(20vh + 100px);
+    box-shadow: 10px 5px #888, 0px 16px 29px #888;
 }
 .submit-button {
     background-color: #596D48;
     color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+    font-weight: 900;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-shadow: none;
+    border: none;
+    box-shadow: -1px 0px #888, -2px 2px 5px #596d48;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.under-submit-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    align-items: center;
+}
+.under-submit-text {
+    font-size: 1.25rem;
+}
+.under-submit-link {
+ color: #596d48;   
+ font-size: 1rem;
+ font-size: 1.25rem;
+ text-decoration: none;
 }
