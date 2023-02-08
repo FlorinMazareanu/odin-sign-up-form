@@ -85,7 +85,7 @@ body {
 }
 .form-up {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     padding-left: 50px;
     padding-top: 3rem;
 }
@@ -111,6 +111,13 @@ body {
 .form-item input {
     height: 1.4rem;
     width: 15vw;
+    border: 1px solid #E5E7EB;
+    border-radius: 0.25rem;
+}
+.form-item input:focus {
+    outline: 1px solid blue !important;
+    border-radius: 0.25rem;
+    box-shadow: 5px 10px 18px #E5E7EB;
 }
 .form-down {
     bottom: 0px;
