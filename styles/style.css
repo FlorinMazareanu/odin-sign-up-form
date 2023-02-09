@@ -305,3 +305,46 @@ body {
         width: 100%;
     }
 }
+
+@media (max-height: 1000px) and (min-width: 800px) {
+    #title-section {
+        position: fixed;
+    }
+    #content-section {
+        position: static;
+        margin-left: 30vw;
+    }
+    .content-up {
+        position: static;
+    }
+    .content-form {
+        position: static;
+    }
+    .form-left-right {
+        position: static;
+    }
+    .form-down {
+        position: static;
+    }
+  }
+
+  @media (max-height: 1000px) and (max-width: 800px) {
+    #title-section {
+        position: fixed;
+    }
+    #content-section {
+        position: static;
+    }
+    .content-up {
+        position: static;
+    }
+    .content-form {
+        position: static;
+    }
+    .form-left-right {
+        position: static;
+    }
+    .form-down {
+        position: static;
+    }
+  }
